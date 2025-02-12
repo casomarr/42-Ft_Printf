@@ -44,7 +44,7 @@ cd ft_printf
 ```
 3. Compile your program:
 ```sh
-gcc -Wall -Wextra -Werror ft_printf.c main.c -o ft_printf  
+make 
 ```
 4. Run the program to test its functionality:
 ```sh
