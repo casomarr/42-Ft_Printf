@@ -42,11 +42,23 @@ git clone git@github.com:casomarr/42-Ft_Print.git
 ```sh
 cd ft_printf  
 ```
-3. Compile your program:
+3. Add a main function at the end of the ft_printf.c file to test the ft_print function:
+```c
+#include "ft_printf.h"  
+
+int main(void) {  
+    ft_printf("Hello, %s! The number is %d.\n", "World", 42);  
+    ft_printf("Pointer: %p\n", "Test");  
+    ft_printf("Hexadecimal: %x\n", 255);  
+    ft_printf("Unsigned: %u\n", -42);  
+    return (0);  
+}
+```
+4. Compile the program:
 ```sh
 make 
 ```
-4. Run the program to test its functionality:
+5. Run the program to test its functionality:
 ```sh
 ./ft_printf
 ``` 
