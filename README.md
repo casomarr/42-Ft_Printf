@@ -38,11 +38,7 @@ E- dge Cases: Handling unusual inputs like empty strings, null pointers, or mixe
 ```sh
 git clone git@github.com:casomarr/42-Ft_Print.git
 ```
-2. Navigate to the project directory:
-```sh
-cd ft_printf  
-```
-3. Add a main function at the end of the ft_printf.c file to test the ft_print function:
+2. Add a main function at the end of the ft_printf.c file to test the ft_print function:
 ```c
 #include "ft_printf.h"  
 
@@ -54,11 +50,11 @@ int main(void) {
     return (0);  
 }
 ```
-4. Compile the program:
+3. Compile the program:
 ```sh
 make 
 ```
-5. Run the program to test its functionality:
+4. Run the program to test its functionality:
 ```sh
 ./ft_printf
 ``` 
